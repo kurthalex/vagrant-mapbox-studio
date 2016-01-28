@@ -20,7 +20,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.provision "shell", inline: <<-SHELL
      sudo apt-get -y update
-     sudo apt-get -y install wget unzip lxde
+     sudo apt-get -y install wget unzip lxde chromium
      wget https://mapbox.s3.amazonaws.com/mapbox-studio/mapbox-studio-linux-x64-v0.3.3.zip
      unzip mapbox-studio-linux-x64-v0.3.3.zip -d mapbox-studio-linux-x64-v0.3.3
      rm mapbox-studio-linux-x64-v0.3.3.zip
