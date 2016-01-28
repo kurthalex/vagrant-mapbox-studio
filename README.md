@@ -1,7 +1,8 @@
 Why
 ===
 
-Because some people could not run mapbox-studio because of their too old version of glibc (e.g. if you're on wheezy)
+Because some people could not run mapbox-studio because of their too old version of glibc (e.g. if you're on wheezy) and need a full graphical linux environment. If you don't need, prefer docker solution
+
 
 Install
 =======
